@@ -20,8 +20,8 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t mydockerhubuser/myapp:latest .
+        docker build -t sachithliyanage07@gmail.com/sachithtest:latest .
 
     - name: Push Docker image
       run: |
-        docker push sachithtest/myapp:latest
+        docker push sachithliyanage07@gmail.com/sachithtest:latest
