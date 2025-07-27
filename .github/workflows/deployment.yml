@@ -20,8 +20,8 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t sachiya01/sachithtest:latest .
+        docker build -t sachiya01/sachithtest2:latest .
 
     - name: Push Docker image
       run: |
-        docker push sachiya01/sachithtest:latest
+        docker push sachiya01/sachithtest2:latest
